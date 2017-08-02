@@ -1,0 +1,10 @@
+<div id="main">
+  <% @books.each do |book| %>
+    <%= book.id %>
+    <%= book.title %>
+    <%= book.price %>
+    <%= book.publish %>
+    <%= book.published %>
+    <%= book.dl %>
+  <% end %>
+</div>
